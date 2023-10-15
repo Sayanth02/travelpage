@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+.nav-item a{
+    font-weight:bold;
+    color: #000;
+}
+
+/* carousal */
+#carousel-home {
+    height: 100vh;
+}
+
+.carousel-item img {
+
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* about kerala */
+.about-kerala {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.about-kerala p {
+
+    text-align: justify;
+}
+
+
+
+/* destinations */
+
+.grid-container {
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+
+/* about kerala image grid */
+#top {
+    margin-top: 25px;
+}
+
+#top img {
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+
+}
+
+
+
+/* services */
+
+
+.service-grid {
+    margin-left: 250px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.service-grid .icon {
+    margin-top: 50px;
+}
+
+.service-grid .icon i {
+    font-size: 50px;
+    padding-left: 30px;
+
+}
+
+
+
+/* contact */
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#mail {
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border: 1px dotted #000;
+    padding: 30px 30px;
+}
+
+
+
+
+/* About */
+
+#about {
+    background-color: #e0f2f1;
+    width: 100%;
+}
+
+.aboutUs {
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+.about-flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutUs {
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.contactUs {
+
+    margin-left: 10px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.Qlinks {
+    margin-top: 140px;
+}
+
+.Qlinks .links {
+    margin: 10px 0;
+}
+
+.Qlinks a {
+    text-decoration: none;
+    color: #000;
+}
+
+.uinfo {
+    margin-top: 140px;
+}
+
+.uinfo .li {
+    margin: 10px 0;
+}
+
+.StayC {
+    margin-top: 140px;
+}
+
+.StayC .Sm {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.Sm i {
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+footer {
+    color: rgb(105, 236, 49);
+}
+
+/* Responsive code */
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #carousel-home {
+        height: 250px;
+    }
+
+    .carousel-item img {
+
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .about-kerala {
+
+        padding: 10px 10px;
+    }
+
+    .about-kerala h1 {
+
+        font-size: 20px;
+    }
+
+    .about-kerala p {
+        width: 100%;
+        font-size: 6px;
+        text-align: justify;
+        font-weight: 500;
+
+    }
+
+    #accordionExample {
+        display: none;
+    }
+
+    #top {
+        margin-top: 50px;
+    }
+
+    #top img {
+        width: 90%;
+        height: 60px;
+
+    }
+
+    .grid-container {
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    .service-grid {
+        margin-left: 30px;
+    }
+
+    .service-grid .icon {
+        margin-top: -10px;
+    }
+
+    .service-grid .icon i {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .service-grid .icon p {
+        font-size: 10px;
+    }
+
+    .service-grid h2 {
+        font-size: 10px;
+        margin-bottom: 30px;
+        font-weight: 500px;
+    }
+
+    #mail {
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    #about {
+        width: 100%;
+    }
+
+    .about-flexbox {
+        font-size: 10px;
+        justify-content: space-evenly;
+    }
+
+    .contactUs {
+
+
+        margin-top: 50px;
+        font-weight: bold;
+        padding-left: -30px;
+    }
+
+    .contactUs h4 {
+        font-size: 10px;
+    }
+
+    .iconsC {
+        display: flex;
+        margin: -7px 0;
+    }
+
+    .contactUs .iconsC p {
+        font-size: 5px;
+        width: 40px;
+    }
+
+    .contactUs .iconsC i {
+        font-size: 5px;
+    }
+
+    .Qlinks {
+        margin-top: 50px;
+
+    }
+
+    .Qlinks h5 {
+        font-size: 10px;
+    }
+
+    .Qlinks .links {
+        margin: 0px 0;
+    }
+
+    .links a {
+        font-size: 7px;
+    }
+
+    .uinfo {
+        margin-top: 50px;
+
+
+    }
+
+    .uinfo .li {
+        margin: 0px 0;
+        font-size: 7px;
+        width: 100px;
+    }
+
+    .uinfo h5 {
+        font-size: 10px;
+    }
+
+    .StayC {
+        margin-top: 50px;
+
+
+    }
+
+    .StayC h5 {
+        font-size: 10px;
+    }
+
+
+
+}
